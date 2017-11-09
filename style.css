@@ -1,6 +1,121 @@
-/*promo*/
+/* GENERAL */
 
-#promo 
+*
 {
-    
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1, h2,h3,h4
+{
+  color: #444;  
+}
+h1
+{
+    font-family: 'Helvetica', serif;
+    font-size: 45px;
+}
+h2
+{
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange
+{
+    color: #F1C40F;
+}
+.clear
+{
+    clear: both;   
+}
+small
+{
+    font-size: 13px;
+    font-style:italic;
+}
+
+/* possibilities */
+
+
+#possibilities
+{
+    background-color: #424949;
+    padding:  60px 0;
+}
+#possibilities article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    background: rgba(255,255,255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+article h4
+{
+    border-bottom:  1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#promo p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-1:hover
+{
+    color: #fff;
+    background-color: #02b8dd;
 }
