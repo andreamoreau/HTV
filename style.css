@@ -1,4 +1,5 @@
 /* GENERAL */
+<<<<<<< HEAD
 
 *
 {
@@ -118,4 +119,64 @@ article h4
 {
     color: #fff;
     background-color: #02b8dd;
+=======
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Helvetica,sans-serif;
+}
+
+/* HEADER */
+
+header
+{
+    height: 120px;
+}
+
+header ul
+{
+    text-align: center;
+    padding-left: 115px
+    
+}
+
+header nav ul li
+
+{
+    display: inline-block;
+    padding: 15px;
+}
+
+header nav ul li a
+
+{
+    text-transform: uppercase;
+    text-decoration-line: none;
+    margin-right: 125px;
+    color: #424949;
+    
+}
+
+
+
+#htv-vecto
+
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 300px;
+    padding-left: 805px
+}
+
+header nav ul li a:hover
+{
+    color: #F1C40F;
+>>>>>>> 5a3313dbabcc8c659fba3ec8714287b8af0d9cb0
 }
