@@ -1,0 +1,49 @@
+/*GENERAL*/
+
+
+h3
+{
+    
+}
+
+/*MAIN-IMAGE*/
+
+
+#main-image
+{
+    height:495px;
+    background: url('Images/SLIDE4.png')no-repeat;
+}
+.wrapper h3 
+{
+    width:66px;
+    height: 30px; 
+    color:darkslategray;
+    font-size: 35px; 
+    border-bottom: 0.05px solid darkslategray;
+    padding-top: 100px;
+}
+h3
+{
+    margin-left: 300px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+   
+}
+
+p
+{
+   margin-left: 300px; 
+   padding-top: 10px;
+   margin-top: 20px;
+}
+#main-image p
+{
+    margin-left: 300px;
+    color:darkslategray;
+    font-size: 50px; 
+    text-align: 200px;
+    padding-top: 1px;
+    margin-top: 5px;
+}
